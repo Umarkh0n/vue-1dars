@@ -11,7 +11,6 @@
                     <option class="option" value="">Xizmat turi</option>
                 </select>
                 <Button class="Btn" text="Buyurtma berish" variant="primary" />
-
             </form>
         </div>
         <div class="down__baground ">
@@ -93,6 +92,7 @@
 <script setup>
 import Infowords from '../Common/Infowords.vue';
 import Button from '../Common/Button.vue';
+import { RouterLink } from 'vue-router';
 </script>
 
 <style scoped>
